@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familia</title>
+</head>
+<body>
+    {% for per in personas %}
+
+        <h1>El nombre y apellido de la persona es: {{per.name}}, {{per.surname}}</h1>
+        <h2>Su edad es: {{per.edad}} años</h2>
+        <h2>Nacio el: {{per.nacimiento}}</h2>
+
+    {% endfor %}
+    
+</body>
+</html>
